@@ -1,0 +1,21 @@
+:root{
+    --bs-font-sans-serif: 'Rubik', sans-serif;
+}
+.container-xxl{max-width: 1530px;}
+body{
+    
+}
+.image-container {
+    position: relative;
+  }
+  
+  .image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .image-container img:last-child {
+    z-index: 1;
+  }
+a{color: var(--bs-dark); }
